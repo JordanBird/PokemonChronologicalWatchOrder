@@ -1,0 +1,602 @@
+[
+    {
+        "arc": "Indigo League",
+        "miniArcs": [
+            {
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon",
+                        "start": { "season": 1, "episode": 1, "name": "Pokémon, I Choose You!" },
+                        "end": { "season": 1, "episode": 67, "name": "The Pi-Kahuna" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Vacation" },
+                    { "type": "short", "series": "Movie 1 Prequel", "name": "The Origin of Mewtwo/The Birth of Mewtwo" },
+                    { "type": "movie", "name": "Pokémon the First Movie - Mewtwo Strikes Back" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon",
+                        "start": { "season": 1, "episode": 68, "name": "Make Room for Gloom!" },
+                        "end": { "season": 1, "episode": 73, "name": "To Master the Onixpected" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Christmas Night" },
+                    { "type": "short", "series": "Pikachu short", "name": "Kanga Games" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon",
+                        "start": { "season": 1, "episode": 74, "name": "The Ancient Puzzle of Pokémopolis" },
+                        "end": { "season": 1, "episode": 82, "name": "Friends to the End" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Orange Islands",
+        "miniArcs": [
+            {
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 2, "episode": 1, "name": "Pallet Party Panic" },
+                        "end": { "season": 2, "episode": 24, "name": "Bound for Trouble" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Rescue Adventure" },
+                    { "type": "movie", "name": "Pokémon the Movie 2000 - The Power of One" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 2, "episode": 25, "name": "Charizard Chills" },
+                        "end": { "season": 2, "episode": 36, "name": "The Rivalry Revival" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Johto League",
+        "miniArcs": [
+            {
+                "miniArc": "The Johto Journeys",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 3, "episode": 1, "name": "Don't Touch That 'Dile" },
+                        "end": { "season": 3, "episode": 10, "name": "The Chikorita Rescue" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Winter Games" },
+                    { "type": "short", "series": "Pikachu short", "name": "Stantler's Little Helpers" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 3, "episode": 11, "name": "Once In A Blue Moon" },
+                        "end": { "season": 3, "episode": 39, "name": "Forest Grumps" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu & Pichu" },
+                    { "type": "movie", "name": "Pokémon 3: The Movie - Spell of the Unown" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 3, "episode": 40, "name": "The Psychic Sidekicks" },
+                        "end": { "season": 3, "episode": 41, "name": "The Fortune Hunters" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Johto League Champions",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 4, "episode": 1, "name": "A Goldenrod Opportunity" },
+                        "end": { "season": 4, "episode": 21, "name": "The Grass Route" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Delibird's Dilemma" },
+                    { "type": "short", "series": "Pikachu short", "name": "Snorlax Snowman" },
+                    { "type": "special", "name": "Mewtwo Returns" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 4, "episode": 22, "name": "The Apple Corp!" },
+                        "end": { "season": 4, "episode": 48, "name": "The Kecleon Caper" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's PikaBoo" },
+                    { "type": "movie", "name": "Pokémon 4Ever - Celebi: Voice of the Forest" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 4, "episode": 49, "name": "The Joy of Water Pokémon" },
+                        "end": { "season": 4, "episode": 52, "name": "Machoke, Machoke Man!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Master Quest",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 5, "episode": 1, "name": "Around the Whirlpool" },
+                        "end": { "season": 5, "episode": 21, "name": "Hatching a Plan" }
+                    },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon Chronicles", 
+                        "start": { "season": 1, "episode": 1, "name": "The Legend of Thunder (Part 1)" },
+                        "end": { "season": 1, "episode": 3, "name": "The Legend of Thunder (Part 3)" }
+                    },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 5, "episode": 22, "name": "Dues and Don'ts" },
+                        "end": { "season": 5, "episode": 47, "name": "Just Add Water" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Camp Pikachu" },
+                    { "type": "movie", "name": "Pokémon Heroes" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 5, "episode": 48, "name": "Lapras of Luxury" },
+                        "end": { "season": 5, "episode": 65, "name": "Hoenn Alone!" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Hoenn League",
+        "miniArcs": [
+            {
+                "miniArc": "Advanced",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 1, "name": "Get the Show on the Road!" },
+                        "end": { "season": 6, "episode": 2, "name": "A Ruin with a View" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 6, "name": "A Family That Battles Together, Stays Together!!" },
+                    { "type": "episode", "series": "Pokemon", "season": 6, "episode": 3, "name": "There's no Place Like Hoenn" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 7, "name": "Cerulean Blues" },
+                    { "type": "episode", "series": "Pokemon", "season": 6, "episode": 4, "name": "You Never Can Taillow" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 8, "name": "We're No Angels!" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 5, "name": "In the Knicker of Time!" },
+                        "end": { "season": 6, "episode": 7, "name": "Tree's a Crowd" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 9, "name": "Showdown at the Oak Corral!" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 8, "name": "A Tail with a Twist" },
+                        "end": { "season": 6, "episode": 13, "name": "All Things Bright and Beautifly!" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 10, "name": "The Blue Badge of Courage" },
+                    { "type": "episode", "series": "Pokemon", "season": 6, "episode": 14, "name": "All in a Day's Wurmple" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon Chronicles", 
+                        "start": { "season": 1, "episode": 20, "name": "Of Meowth and Pokémon (Part 1)" },
+                        "end": { "season": 1, "episode": 24, "name": "Big Meowth, Little Dreams (Part 2)" }
+                    },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 15, "name": "Gonna Rule the School!" },
+                        "end": { "season": 6, "episode": 19, "name": "Sharpedo Attack!" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 11, "name": "Oak-Napped" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 20, "name": "Brave The Wave" },
+                        "end": { "season": 6, "episode": 35, "name": "Win, Lose or Drew!" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Gotta Dance!!" },
+                    { "type": "movie", "name": "Jirachi: Wish Maker" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 6, "episode": 36, "name": "The Spheal of Approval" },
+                        "end": { "season": 6, "episode": 40, "name": "Watt's With Wattson?" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 13, "name": "A Date With Delcatty" }
+                ]
+            },
+            {
+                "miniArc": "Advanced Challenge",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 7, "episode": 1, "name": "What You Seed is What You Get" },
+                        "end": { "season": 7, "episode": 5, "name": "A Togepi Mirage!" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 14, "name": "Training Daze!" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 12, "name": "Celebi & Joy!" },
+                    { "type": "episode", "series": "Pokemon", "season": 7, "episode": 6, "name": "Candid Camerupt!" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 15, "name": "Journey To The Starting Line!" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 7, "episode": 7, "name": "I Feel Skitty!" },
+                        "end": { "season": 7, "episode": 27, "name": "Go Go Ludicolo!" }
+                    },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 16, "name": "Putting The Air Back In Aerodactyl!" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 7, "episode": 28, "name": "A Double Dilemma" },
+                        "end": { "season": 7, "episode": 45, "name": "Sky High Gym Battle!" }
+                    },
+                    { "type": "movie", "name": "Destiny Deoxys" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 7, "episode": 46, "name": "Lights, Camerupt, Action!" },
+                        "end": { "season": 7, "episode": 47, "name": "Crazy as a Lunatone" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Summer Festival", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 7, "episode": 48, "name": "The Garden of Eatin'" },
+                        "end": { "season": 7, "episode": 52, "name": "Judgment Day!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Advanced Battle",
+                "media": [
+                    { "type": "episode", "series": "Pokemon", "season": 8, "episode": 1, "name": "Clamperl of Wisdom" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 17, "name": "Luvdisc Is A Many Splendored Thing" },
+                    { "type": "episode", "series": "Pokemon", "season": 8, "episode": 2, "name": "The Relicanth Really Can" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 18, "name": "Those Darn Electabuzz!" },
+                    { "type": "episode", "series": "Pokemon", "season": 8, "episode": 3, "name": "The Evolutionary War" },
+                    { "type": "episode", "series": "Pokemon Chronicles", "season": 1, "episode": 19, "name": "The Search for a Legend" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 8, "episode": 4, "name": "Training Wrecks" },
+                        "end": { "season": 8, "episode": 26, "name": "Berry, Berry Interesting" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pokémon 3D Adventure: Find Mew!", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 8, "episode": 27, "name": "Less is Morrison" },
+                        "end": { "season": 8, "episode": 41, "name": "The Scheme Team" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Kanto Battle Frontier",
+        "miniArcs": [
+            {
+                "miniArc": "Advanced Battle (continued)",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 8, "episode": 42, "name": "The Right Place and the Right Mime" },
+                        "end": { "season": 8, "episode": 43, "name": "A Real Cleffa Hanger" }
+                    },
+                    { "type": "movie", "name": "Lucario and the Mystery of Mew" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 8, "episode": 44, "name": "Numero Uno Articuno" },
+                        "end": { "season": 8, "episode": 45, "name": "The Symbol Life" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Ghost Carnival", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 8, "episode": 46, "name": "Hooked On Onix" },
+                        "end": { "season": 8, "episode": 54, "name": "Pasta La Vista!" }
+                    },
+                    { "type": "special", "name": "Pokémon Mystery Dungeon: Team Go Getters Out of the Gate!" }
+                ]
+            },
+            {
+                "miniArc": "Battle Frontier",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 9, "episode": 1, "name": "Fear Factor Phony" },
+                        "end": { "season": 9, "episode": 34, "name": "Slaking Kong" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Ocean Adventure" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 9, "episode": 35, "name": "May, We Harley Drew'd Ya!" },
+                        "end": { "season": 9, "episode": 38, "name": "Aipom and Circumstance!" }
+                    },
+                    { "type": "movie", "name": "Pokémon Ranger and the Temple of the Sea" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 9, "episode": 39, "name": "Strategy Tomorrow - Comedy Tonight!" },
+                        "end": { "season": 9, "episode": 40, "name": "Duels of the Jungle!" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Island Adventure" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 9, "episode": 41, "name": "Overjoyed!" },
+                        "end": { "season": 9, "episode": 47, "name": "Home Is Where The Start Is" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Sinnoh League",
+        "miniArcs": [
+            {
+                "miniArc": "Diamond and Pearl",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 10, "episode": 1, "name": "Following a Maiden's Voyage!" },
+                        "end": { "season": 10, "episode": 39, "name": "Steamboat Willies!" }
+                    },
+                    { "type": "movie", "name": "The Rise of Darkrai" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 10, "episode": 40, "name": "Top-Down Training!" },
+                        "end": { "season": 10, "episode": 41, "name": "A Stand-Up Sit-Down!" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Exploration Club", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 10, "episode": 42, "name": "The Electrike Company!" },
+                        "end": { "season": 10, "episode": 52, "name": "Smells Like Team Spirit!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Diamond & Pearl: Battle Dimension",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 11, "episode": 1, "name": "Tears for Fears" },
+                        "end": { "season": 11, "episode": 22, "name": "Pika and Goliath!" }
+                    },
+                    { "type": "special", "name": "Pokémon Mystery Dungeon: Explorers of Time & Darkness" },
+                    { "type": "special", "name": "Pokémon Mystery Dungeon: Explorers of Sky – Beyond Time & Darkness" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 11, "episode": 23, "name": "Our Cup Runneth Over!" },
+                        "end": { "season": 11, "episode": 34, "name": "Arriving in Style!" }
+                    },
+                    { "type": "movie", "name": "Giratina and the Sky Warrior" },
+                    { "type": "episode", "series": "Pokemon", "season": 11, "episode": 35, "name": "The Psyduck Stops Here!" },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Ice Adventure" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 11, "episode": 36, "name": "Camping It Up!" },
+                        "end": { "season": 11, "episode": 52, "name": "Sleepless in Pre-Battle!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Diamond & Pearl: Diamond & Pearl: Galactic Battles",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 12, "episode": 1, "name": "Get Your Rotom Running!" },
+                        "end": { "season": 12, "episode": 31, "name": "Beating the Bustle and Hustle!" }
+                    },
+                    { "type": "movie", "name": "Arceus and the Jewel of Life" },
+                    { "type": "episode", "series": "Pokemon", "season": 11, "episode": 32, "name": "Gateway to Ruin!" },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Big Sparking Search", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 12, "episode": 33, "name": "Three Sides to Every Story!" },
+                        "end": { "season": 12, "episode": 53, "name": "Gotta Get a Gible!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Diamond & Pearl: Diamond & Pearl: Sinnoh League Victors",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 13, "episode": 1, "name": "Regaining the Home Advantage!" },
+                        "end": { "season": 13, "episode": 9, "name": "The Fleeing Tower of Sunyshore!" }
+                    },
+                    { "type": "special", "name": "Pokémon Ranger: Guardian Signs (Part One)" },
+                    { "type": "special", "name": "Pokémon Ranger: Guardian Signs (Part Two)" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 13, "episode": 10, "name": "Teaching the Student Teacher!" },
+                        "end": { "season": 13, "episode": 21, "name": "For the Love of Meowth!" }
+                    },
+                    { "type": "movie", "name": "Zoroark: Master of Illusions" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 13, "episode": 22, "name": "The Eighth Wonder of the Sinnoh World!" },
+                        "end": { "season": 13, "episode": 24, "name": "Bucking the Treasure Trend" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Big Mysterious Adventure", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 13, "episode": 25, "name": "An Old Family Blend!" },
+                        "end": { "season": 13, "episode": 34, "name": "Memories are Made of Bliss!" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Unova League",
+        "miniArcs": [
+            {
+                "miniArc": "Black & White",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 14, "episode": 1, "name": "In the Shadow of Zekrom!" },
+                        "end": { "season": 14, "episode": 18, "name": "Sewaddle and Burgh in Pinwheel Forest!" }
+                    },
+                    { "type": "special", "name": "Dawn - Setting off on a New Journey!", "notes": [ "Exists only in Japanese" ] },
+                    { "type": "special", "name": "Pewter Gym - The Greatest Crisis Ever!", "notes": [ "Exists only in Japanese" ] },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 14, "episode": 19, "name": "A Connoisseurer's Revenge!" },
+                        "end": { "season": 14, "episode": 37, "name": "A Fishing Connoisseur in a Fishy Competition!" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachu's Summer Bridge Story", "notes": [ "Exists only in Japanese" ] },
+                    { "type": "movie", "name": "White—Victini and Zekrom" },
+                    { "type": "movie", "name": "Black—Victini and Reshiram" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 14, "episode": 38, "name": "Movie Time! Zorua in The Legend of the Pokémon Knight!" },
+                        "end": { "season": 14, "episode": 48, "name": "Battle For The Underground!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Black & White: Rival Destinies",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 14, "episode": 49, "name": "Enter Elesa, Electrifying Gym Leader!" },
+                        "end": { "season": 14, "episode": 84, "name": "Rocking the Virbank Gym! (2)" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Black & White: Rival Destinies (continued)",
+                    "media": [
+                        {
+                            "type": "episodes",
+                            "series": "Pokemon", 
+                            "start": { "season": 15, "episode": 1, "name": "All for the Love of Meloetta!" },
+                            "end": { "season": 15, "episode": 2, "name": "Piplup, Pansage, and a Meeting of the Times!" }
+                        },
+                        { "type": "short", "series": "Pikachu short", "name": "Sing Meloetta: Search for the Rinka Berries", "notes": [ "Exists only in Japanese" ] },
+                        { "type": "episode", "series": "Pokemon", "season": 15, "episode": 3, "name": "Expedition to Onix Island!" },
+                        { "type": "short", "series": "Pikachu short", "name": "Meloetta's Moonlight Serenade" },
+                        {
+                            "type": "episodes",
+                            "series": "Pokemon", 
+                            "start": { "season": 15, "episode": 4, "name": "The Mystery of the Missing Cubchoo!" },
+                            "end": { "season": 15, "episode": 13, "name": "Unova's Survival Crisis!" }
+                        },
+                        { "type": "movie", "name": "Kyurem VS. The Sword of Justice" }
+                    ]
+            },
+            {
+                "miniArc": "Black & White: Adventures in Unova",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 15, "episode": 14, "name": "Beauties Battling for Pride and Prestige!" },
+                        "end": { "season": 15, "episode": 24, "name": "A Unova League Evolution!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Black & White: Adventures in Unova (Episode N)",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 15, "episode": 25, "name": "New Places... Familiar Faces!" },
+                        "end": { "season": 15, "episode": 38, "name": "What Lies Beyond Truth and Ideals!" }
+                    }
+                ]
+            },
+            {
+                "miniArc": "Black & White: Adventures in Unova and Beyond (Decolora Adventure!)",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 15, "episode": 39, "name": "Farewell, Unova! Setting Sail for New Adventures!" },
+                        "end": { "season": 15, "episode": 49, "name": "Capacia Island UFO!" }
+                    },
+                    { "type": "short", "series": "Pikachu short", "name": "Eevee & Friends" },
+                    { "type": "special", "name": "Mewtwo — Prologue to Awakening" },
+                    { "type": "movie", "name": "Genesect and the Legend Awakened" },
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 15, "episode": 50, "name": "The Journalist from Another Region!" },
+                        "end": { "season": 15, "episode": 58, "name": "The Dream Continues!" }
+                    },
+                    { "type": "special", "name": "Cilan and Brock! Gyarados's Outrage!!", "notes": [ "Exists only in Japanese" ] }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Pokemon Origins",
+        "miniArcs": [
+            {
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon Origins", 
+                        "start": { "season": 1, "episode": 1, "name": "Red" },
+                        "end": { "season": 1, "episode": 4, "name": "Charizard" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Kalos League",
+        "miniArcs": [
+            {
+                "miniArc": "Pokemon the Series: XY",
+                "media": [
+                    {
+                        "type": "episodes",
+                        "series": "Pokemon", 
+                        "start": { "season": 16, "episode": 1, "name": "Kalos, Where Dreams and Adventures Begin!" },
+                        "end": { "season": 16, "episode": 20, "name": "Breaking Titles at the Chateau!" }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "arc": "Unplaced",
+        "miniArcs": [
+            {
+                "media": [
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachus Winter Vacation" },
+                    { "type": "short", "series": "Pikachu short", "name": "Pikachus Winter Vacation" }
+                ]
+            }
+        ]
+    }
+]

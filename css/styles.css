@@ -1,0 +1,170 @@
+p {
+    margin: 0;
+}
+
+.timeline-card {
+    color: white;
+    border-radius: 0 5px 5px 5px;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+ul.timeline > li:before {
+    margin-top: -12px;
+}
+ul.timeline > li {
+    padding: 10px 20px;
+}
+
+/* Actual */
+.timeline-container {
+    display: flex;
+    float: left;
+    width: 100%;
+}
+.timeline-chunk {
+    float: left;
+
+    border-left: solid 2px #323232;
+}
+.timeline-dash {
+    width: 24px;
+    height: 2px;
+    background: inherit;
+    float: left;
+}
+
+.timeline-marker {
+    float: left;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: inherit;
+    margin-left: -5.5px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 500;
+    margin-top: -4px;
+}
+.timeline-card {
+    float: left;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-card-header {
+    padding: 10px 15px 5px 15px;
+    font-weight: bold;
+    border-bottom: solid 2px rgb(50 50 50 / 0.5);
+}
+
+.timeline-card-body {
+    padding: 10px 15px;
+    background: #323232;
+}
+
+.timeline-episode,
+.timeline-container.episode > .timeline-chunk > .timeline-dash,
+.timeline-container.episode > .timeline-chunk > .timeline-marker,
+.timeline-container.episode ~ .timeline-card,
+.timeline-episodes,
+.timeline-container.episodes > .timeline-chunk > .timeline-dash,
+.timeline-container.episodes > .timeline-chunk > .timeline-marker,
+.timeline-container.episodes ~ .timeline-card {
+    background: #30a7d7;
+}
+
+.timeline-movie,
+.timeline-container.movie > .timeline-chunk > .timeline-dash,
+.timeline-container.movie > .timeline-chunk > .timeline-marker,
+.timeline-container.movie ~ .timeline-card {
+    background: #ee6b2f;
+}
+
+.timeline-special,
+.timeline-container.special > .timeline-chunk > .timeline-dash,
+.timeline-container.special > .timeline-chunk > .timeline-marker,
+.timeline-container.special ~ .timeline-card {
+    background: #e6bc2f;
+}
+
+.timeline-short,
+.timeline-container.short > .timeline-chunk > .timeline-dash,
+.timeline-container.short > .timeline-chunk > .timeline-marker,
+.timeline-container.short ~ .timeline-card {
+    background: #4dad5b;
+}
+
+/*#E3350D #1b53ba*/
+
+body {
+    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
+}
+
+.dropdown-menu {
+    right: 0;
+    left: initial;
+}
+
+.side-timeline-container {
+    position: fixed;
+    background: #323232;
+    border-radius: 5px;
+    border: solid 2px #E3350D;
+    color: white;
+}
+
+.side-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 5px 10px;
+}
+
+.side-timeline-header {
+    background: #e3350d;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-bottom: solid 2px rgb(50 50 50 / 0.5);
+}
+
+.side-timeline > li {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color .35s linear;
+    border-top: dashed 1px rgb(255 255 255 / 0.2);
+    padding: 3px 0 0 0;
+}
+.side-timeline > li:first-child {
+    border-top: none;
+}
+
+.side-timeline > li.active {
+    color: #E3350D;
+}
+.side-timeline > li:hover {
+    color: #E3350D;
+}
+
+.main-timeline {
+    background-color: rgb(97 97 97 / 0.2);
+}
+
+h1 {
+    margin: 24px 0 14px 24px;
+    color: white;
+}
+
+h2 {
+    margin: 24px 0 14px 24px;
+    color: white;
+}
+
+.navbar {
+    border-bottom: solid 2px #dedede;
+    background-color: #323232;
+}

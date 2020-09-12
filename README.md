@@ -14,9 +14,7 @@ The timeline is hosted with GitHub pages, available here: https://jordanbird.git
 * Add movie information after Kalos
 * Add special information after Kalos
 * Add short information after Kalos
-* Add a new background, not sourced from https://pokemon.com
 * Add an area that explains decisions that might be controversial (this could also link to PRs or issues)
-* Add a link back to the main GitHub page for contributing and discussion
 
 ## Bugs
 * The navigation menu doesn't start in the correct location

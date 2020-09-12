@@ -57,8 +57,8 @@ function renderTimeline(arcs) {
                     }
                 }
 
-                var card = $('<div></div>').addClass('timeline-card timeline-' + media.type).attr('data-toggle', 'collapse').attr('data-target', "#" + uniqueRef);
-                var header = $('<div></div>').addClass('timeline-card-header').html(title);
+                var card = $('<div></div>').addClass('timeline-card timeline-' + media.type);
+                var header = $('<div></div>').addClass('timeline-card-header collapsed').attr('data-toggle', 'collapse').attr('data-target', "#" + uniqueRef).html(title);
                 $(card).append(header);
                 $(card).append(listItem);
 
@@ -74,7 +74,7 @@ function addNavigation(name) {
             scrollTop: $("[data-header='" + name + "']").offset().top},
             'slow');
     });
-    $('.side-timeline').append(link);
+    $('.floating-navigation').append(link);
 
     $('.jump-to-container').append($('<a></a>').addClass('dropdown-item').attr('href', '#').html(name).click(function() {
         $('html,body').animate({
@@ -117,11 +117,11 @@ function initEvents() {
 }
 
 function posiitonNav() {
-    $('.side-timeline-container').css('top', ($(window).height() / 2) - ($('.side-timeline-container').height() / 2));
-    $('.side-timeline-container').css('left', $('.side-timeline-container').parent().position().left + ($('.side-timeline-container').parent().width() / 2) - ($('.side-timeline-container').width() / 2));
+    $('.floating-navigation-container').css('top', ($(window).height() / 2) - ($('.floating-navigation-container').height() / 2));
+    $('.floating-navigation-container').css('left', $('.floating-navigation-container').parent().position().left + ($('.floating-navigation-container').parent().width() / 2) - ($('.floating-navigation-container').width() / 2));
 
     var lastActive;
-    var results = $('.side-timeline li');
+    var results = $('.floating-navigation li');
     for (var i = 0; i < results.length; i++) {
         var topOfNav = $(results[i]).position().top;
         var topOfHeader = $("[data-header='" + $(results[i]).html() + "']").position().top - $(window).scrollTop();
@@ -131,11 +131,11 @@ function posiitonNav() {
         }
     }
 
-    if (lastActive == $('.side-timeline li.active')) {
+    if (lastActive == $('.floating-navigation li.active')) {
         return;
     }
     else if (lastActive) {
-        $('.side-timeline li').removeClass('active');
+        $('.floating-navigation li').removeClass('active');
 
         $(lastActive).addClass('active');
     }

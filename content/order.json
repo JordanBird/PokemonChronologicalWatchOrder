@@ -9,6 +9,12 @@
                         "series": "Pokemon",
                         "start": { "season": 1, "episode": 1, "name": "Pokémon, I Choose You!" },
                         "end": { "season": 1, "episode": 67, "name": "The Pi-Kahuna" }
+                        ,
+                        "notes": [
+                            "S01E18 (Beauty and the Beach) is heavily edited, Japanese viewing recommended",
+                            "S01E35 (The Legend of Dratini) is banned, only exists in Japanese",
+                            "S01E38 (Electric Soldier Porygon) is banned, only exists in Japanese"
+                        ]
                     },
                     { "type": "short", "series": "Pikachu short", "name": "Pikachu's Vacation" },
                     { "type": "short", "series": "Movie 1 Prequel", "name": "The Origin of Mewtwo/The Birth of Mewtwo" },

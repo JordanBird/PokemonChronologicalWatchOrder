@@ -1,6 +1,77 @@
+/* Timeline Color Definitions Start */
+.timeline-episode,
+.timeline-container.episode > .timeline-chunk > .timeline-dash,
+.timeline-container.episode > .timeline-chunk > .timeline-marker,
+.timeline-container.episode ~ .timeline-card,
+.timeline-episodes,
+.timeline-container.episodes > .timeline-chunk > .timeline-dash,
+.timeline-container.episodes > .timeline-chunk > .timeline-marker,
+.timeline-container.episodes ~ .timeline-card {
+    background: #30a7d7;
+}
+
+.timeline-movie,
+.timeline-container.movie > .timeline-chunk > .timeline-dash,
+.timeline-container.movie > .timeline-chunk > .timeline-marker,
+.timeline-container.movie ~ .timeline-card {
+    background: #ee6b2f;
+}
+
+.timeline-special,
+.timeline-container.special > .timeline-chunk > .timeline-dash,
+.timeline-container.special > .timeline-chunk > .timeline-marker,
+.timeline-container.special ~ .timeline-card {
+    background: #e6bc2f;
+}
+
+.timeline-short,
+.timeline-container.short > .timeline-chunk > .timeline-dash,
+.timeline-container.short > .timeline-chunk > .timeline-marker,
+.timeline-container.short ~ .timeline-card {
+    background: #4dad5b;
+}
+/* Future Colors: #E3350D #1b53ba*/
+/* Timeline Color Definitions End */
+
+/* Base Start */
+body {
+    background-image: repeating-linear-gradient(135deg, rgb(50 50 50), rgb(50 50 50) 12px, rgb(47 47 47) 12px, rgb(47 47 47) 20px);
+}
+
+h1 {
+    margin: 24px 0 14px 24px;
+    color: white;
+}
+
+h2 {
+    margin: 24px 0 14px 24px;
+    color: white;
+}
+
 p {
     margin: 0;
 }
+/* Base End */
+
+/* Bootstrap Overrides Start */
+.dropdown-menu {
+    right: 0;
+    left: initial;
+    background: #323232;
+}
+.dropdown-item {
+    color: white;
+}
+.dropdown-item:hover {
+    background: #E3350D;
+    color: white;
+}
+
+.navbar {
+    border-bottom: solid 2px #dedede;
+    background-color: #323232;
+}
+/* Bootstrap Overrides End */
 
 .timeline-card {
     color: white;
@@ -11,14 +82,11 @@ p {
     overflow: hidden;
 }
 
-ul.timeline > li:before {
-    margin-top: -12px;
-}
-ul.timeline > li {
-    padding: 10px 20px;
+/* Main Timeline Start */
+.main-timeline {
+    background-color: rgb(97 97 97 / 0.2);
 }
 
-/* Actual */
 .timeline-container {
     display: flex;
     float: left;
@@ -60,57 +128,28 @@ ul.timeline > li {
     padding: 10px 15px 5px 15px;
     font-weight: bold;
     border-bottom: solid 2px rgb(50 50 50 / 0.5);
+    cursor: pointer;
+}
+.timeline-card-header:after {
+    content: '\f077';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    float: right;
+    color: rgb(0, 0, 0, 0.2);
+    transition: transform .25s ease-out;
+}
+.timeline-card-header.collapsed:after {
+    transform: rotate(180deg);
 }
 
 .timeline-card-body {
     padding: 10px 15px;
     background: #323232;
 }
+/* Main Timeline End */
 
-.timeline-episode,
-.timeline-container.episode > .timeline-chunk > .timeline-dash,
-.timeline-container.episode > .timeline-chunk > .timeline-marker,
-.timeline-container.episode ~ .timeline-card,
-.timeline-episodes,
-.timeline-container.episodes > .timeline-chunk > .timeline-dash,
-.timeline-container.episodes > .timeline-chunk > .timeline-marker,
-.timeline-container.episodes ~ .timeline-card {
-    background: #30a7d7;
-}
-
-.timeline-movie,
-.timeline-container.movie > .timeline-chunk > .timeline-dash,
-.timeline-container.movie > .timeline-chunk > .timeline-marker,
-.timeline-container.movie ~ .timeline-card {
-    background: #ee6b2f;
-}
-
-.timeline-special,
-.timeline-container.special > .timeline-chunk > .timeline-dash,
-.timeline-container.special > .timeline-chunk > .timeline-marker,
-.timeline-container.special ~ .timeline-card {
-    background: #e6bc2f;
-}
-
-.timeline-short,
-.timeline-container.short > .timeline-chunk > .timeline-dash,
-.timeline-container.short > .timeline-chunk > .timeline-marker,
-.timeline-container.short ~ .timeline-card {
-    background: #4dad5b;
-}
-
-/*#E3350D #1b53ba*/
-
-body {
-    background: #424242 url(https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png);
-}
-
-.dropdown-menu {
-    right: 0;
-    left: initial;
-}
-
-.side-timeline-container {
+/* Floating Navigation Start */
+.floating-navigation-container {
     position: fixed;
     background: #323232;
     border-radius: 5px;
@@ -118,13 +157,13 @@ body {
     color: white;
 }
 
-.side-timeline {
+.floating-navigation {
     list-style: none;
     margin: 0;
     padding: 0 10px 5px 10px;
 }
 
-.side-timeline-header {
+.floating-navigation-header {
     background: #e3350d;
     padding: 10px;
     font-weight: bold;
@@ -132,39 +171,21 @@ body {
     border-bottom: solid 2px rgb(50 50 50 / 0.5);
 }
 
-.side-timeline > li {
+.floating-navigation > li {
     margin: 5px 0;
     cursor: pointer;
     transition: color .35s linear;
     border-top: dashed 1px rgb(255 255 255 / 0.2);
     padding: 3px 0 0 0;
 }
-.side-timeline > li:first-child {
+.floating-navigation > li:first-child {
     border-top: none;
 }
 
-.side-timeline > li.active {
+.floating-navigation > li.active {
     color: #E3350D;
 }
-.side-timeline > li:hover {
+.floating-navigation > li:hover {
     color: #E3350D;
 }
-
-.main-timeline {
-    background-color: rgb(97 97 97 / 0.2);
-}
-
-h1 {
-    margin: 24px 0 14px 24px;
-    color: white;
-}
-
-h2 {
-    margin: 24px 0 14px 24px;
-    color: white;
-}
-
-.navbar {
-    border-bottom: solid 2px #dedede;
-    background-color: #323232;
-}
+/* Floating Navigation End */

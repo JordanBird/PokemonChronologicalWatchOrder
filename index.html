@@ -1,41 +1,49 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
-  <title>Pokemon Chronological Watch Order</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Pokemon Chronological Watch Order Timeline">
   <meta name="author" content="Jordan Bird">
-
+  <title>Pokemon Chronological Watch Order</title>
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Pokemon Chronological Watch Order</a>
+      <a class="navbar-brand d-none d-sm-block" href="#">Pokemon Chronological Watch Order</a>
+      <a class="navbar-brand d-block d-sm-none" href="#">PCWO</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jump To</a>
-          <div class="dropdown-menu jump-to-container" aria-labelledby="navbarDropdown"></div>
-        </li>
-      </ul>
-    </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/JordanBird/PokemonChronologicalWatchOrder/issues">Discuss</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/JordanBird/PokemonChronologicalWatchOrder">Contribute</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jump To</a>
+            <div class="dropdown-menu jump-to-container" aria-labelledby="navbarDropdown"></div>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-5 d-none d-lg-block">
-        <div class="side-timeline-container">
-          <div class="side-timeline-header">Navigation</div>
-          <ul class="side-timeline"></ul>
+        <div class="floating-navigation-container">
+          <div class="floating-navigation-header">Navigation</div>
+          <ul class="floating-navigation"></ul>
         </div>
       </div>
       <div class="col-12 col-lg-7 main-timeline"></div>

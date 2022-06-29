@@ -10,6 +10,17 @@
     background: #30a7d7;
 }
 
+.timeline-spinoff-episode,
+.timeline-container.spinoff-episode > .timeline-chunk > .timeline-dash,
+.timeline-container.spinoff-episode > .timeline-chunk > .timeline-marker,
+.timeline-container.spinoff-episode ~ .timeline-card,
+.timeline-spinoff-episodes,
+.timeline-container.spinoff-episodes > .timeline-chunk > .timeline-dash,
+.timeline-container.spinoff-episodes > .timeline-chunk > .timeline-marker,
+.timeline-container.spinoff-episodes ~ .timeline-card {
+    background: #1b53ba;
+}
+
 .timeline-movie,
 .timeline-container.movie > .timeline-chunk > .timeline-dash,
 .timeline-container.movie > .timeline-chunk > .timeline-marker,
@@ -29,6 +40,10 @@
 .timeline-container.short > .timeline-chunk > .timeline-marker,
 .timeline-container.short ~ .timeline-card {
     background: #4dad5b;
+}
+
+.is-alternate {
+    opacity: 0.66;
 }
 /* Future Colors: #E3350D #1b53ba*/
 /* Timeline Color Definitions End */

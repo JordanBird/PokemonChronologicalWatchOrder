@@ -1,0 +1,118 @@
+[
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Vacation", "entry": "The Pi-Kahuna" },
+    { "type": "short", "series": "Movie 1 Prequel", "title": "The Origin of Mewtwo/The Birth of Mewtwo", "entry": "The Pi-Kahuna" },
+    { "type": "movie", "title": "Pokémon the First Movie - Mewtwo Strikes Back", "entry": "The Pi-Kahuna" },
+    { "type": "short", "series": "Pikachu short", "title": "Christmas Night", "entry": "To Master the Onixpected" },
+    { "type": "short", "series": "Pikachu short", "title": "Kanga Games", "entry": "To Master the Onixpected" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Rescue Adventure", "entry": "Bound for Trouble" },
+    { "type": "movie", "title": "Pokémon the Movie 2000 - The Power of One", "entry": "Bound for Trouble" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Winter Games", "entry": "The Chikorita Rescue" },
+    { "type": "short", "series": "Pikachu short", "title": "Stantler's Little Helpers", "entry": "The Chikorita Rescue" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu & Pichu", "entry": "Forest Grumps" },
+    { "type": "movie", "title": "Pokémon 3: The Movie - Spell of the Unown", "entry": "Forest Grumps" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Delibird's Dilemma", "entry": "The Grass Route" },
+    { "type": "short", "series": "Pikachu short", "title": "Snorlax Snowman", "entry": "The Grass Route" },
+    { "type": "special", "title": "Mewtwo Returns", "entry": "The Grass Route" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's PikaBoo", "entry": "The Kecleon Caper" },
+    { "type": "movie", "title": "Pokémon 4Ever - Celebi: Voice of the Forest", "entry": "The Kecleon Caper" },
+
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokemon Chronicles", 
+        "start": { "season": 1, "episode": 1, "title": "The Legend of Thunder (Part 1)" },
+        "end": { "season": 1, "episode": 3, "title": "The Legend of Thunder (Part 3)" },
+        "entry": "Hatching a Plan"
+    },
+    
+    { "type": "short", "series": "Pikachu short", "title": "Camp Pikachu", "entry": "Just Add Water" },
+    { "type": "movie", "title": "Pokémon Heroes", "entry": "Just Add Water" },
+
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 6, "title": "A Family That Battles Together, Stays Together!!", "entry": "A Ruin with a View" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 7, "title": "Cerulean Blues", "entry": "There's no Place Like Hoenn" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 8, "title": "We're No Angels!", "entry": "You Never Can Taillow" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 9, "title": "Showdown at the Oak Corral!", "entry": "Tree's a Crowd" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 10, "title": "The Blue Badge of Courage", "entry": "All Things Bright and Beautifly!" },
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokemon Chronicles", 
+        "start": { "season": 1, "episode": 20, "title": "Of Meowth and Pokémon (Part 1)" },
+        "end": { "season": 1, "episode": 24, "title": "Big Meowth, Little Dreams (Part 2)" },
+        "entry": "All in a Day's Wurmple"
+    },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 11, "title": "Oak-Napped", "entry": "Sharpedo Attack!" },
+    { "type": "short", "series": "Pikachu short", "title": "Gotta Dance!!", "entry": "Win, Lose or Drew!" },
+    { "type": "movie", "title": "Jirachi: Wish Maker", "entry": "Win, Lose or Drew!" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 13, "title": "A Date With Delcatty", "entry": "Watt's With Wattson?" },
+
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 14, "title": "Training Daze!", "entry": "A Togepi Mirage!" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 12, "title": "Celebi & Joy!", "entry": "A Togepi Mirage!" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 15, "title": "Journey To The Starting Line!", "entry": "A Togepi Mirage!" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 16, "title": "Putting The Air Back In Aerodactyl!", "entry": "Go Go Ludicolo!" },
+    { "type": "movie", "title": "Destiny Deoxys", "entry": "Sky High Gym Battle!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Summer Festival", "notes": [ "Exists only in Japanese" ], "entry": "Crazy as a Lunatone" },
+
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 17, "title": "Luvdisc Is A Many Splendored Thing", "entry": "Clamperl of Wisdom" },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 18, "title": "Those Darn Electabuzz!", "entry": "The Relicanth Really Can"  },
+    { "type": "spinoff-episode", "series": "Pokemon Chronicles", "season": 1, "episode": 19, "title": "The Search for a Legend", "entry": "The Evolutionary War" },
+    { "type": "short", "series": "Pikachu short", "title": "Pokémon 3D Adventure: Find Mew!", "notes": [ "Exists only in Japanese" ], "entry": "Berry, Berry Interesting" },
+
+        
+    { "type": "movie", "title": "Lucario and the Mystery of Mew", "entry": "A Real Cleffa Hanger" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Ghost Carnival", "notes": [ "Exists only in Japanese" ], "entry": "The Symbol Life" },
+    { "type": "special", "title": "Pokémon Mystery Dungeon: Team Go Getters Out of the Gate!", "entry": "Pasta La Vista!" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Ocean Adventure", "entry": "Slaking Kong" },
+    { "type": "movie", "title": "Pokémon Ranger and the Temple of the Sea", "entry": "Aipom and Circumstance!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Island Adventure", "entry": "Duels of the Jungle!" },
+
+    { "type": "movie", "title": "The Rise of Darkrai", "entry": "Steamboat Willies!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Exploration Club", "notes": [ "Exists only in Japanese" ], "entry": "A Stand-Up Sit-Down!" },
+
+    { "type": "special", "title": "Pokémon Mystery Dungeon: Explorers of Time & Darkness", "entry": "Pika and Goliath!" },
+    { "type": "special", "title": "Pokémon Mystery Dungeon: Explorers of Sky – Beyond Time & Darkness", "entry": "Pika and Goliath!" },
+    { "type": "movie", "title": "Giratina and the Sky Warrior", "entry": "Arriving in Style!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Ice Adventure", "entry": "The Psyduck Stops Here!" },
+
+    { "type": "movie", "title": "Arceus and the Jewel of Life", "entry": "Beating the Bustle and Hustle!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Big Sparking Search", "notes": [ "Exists only in Japanese" ], "entry": "Gateway to Ruin!" },
+
+    { "type": "special", "title": "Pokémon Ranger: Guardian Signs (Part One)", "entry": "The Fleeing Tower of Sunyshore!" },
+    { "type": "special", "title": "Pokémon Ranger: Guardian Signs (Part Two)", "entry": "The Fleeing Tower of Sunyshore!" },
+    { "type": "movie", "title": "Zoroark: Master of Illusions", "entry": "For the Love of Meowth!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Big Mysterious Adventure", "notes": [ "Exists only in Japanese" ], "entry": "Bucking the Treasure Trend" },
+
+    { "type": "special", "title": "Dawn - Setting off on a New Journey!", "notes": [ "Exists only in Japanese" ], "entry": "Sewaddle and Burgh in Pinwheel Forest!" },
+    { "type": "special", "title": "Pewter Gym - The Greatest Crisis Ever!", "notes": [ "Exists only in Japanese" ], "entry": "Sewaddle and Burgh in Pinwheel Forest!" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachu's Summer Bridge Story", "notes": [ "Exists only in Japanese" ], "entry": "A Fishing Connoisseur in a Fishy Competition!" },
+    { "type": "movie", "title": "White—Victini and Zekrom", "entry": "A Fishing Connoisseur in a Fishy Competition!" },
+    { "type": "movie", "title": "Black—Victini and Reshiram", "entry": "A Fishing Connoisseur in a Fishy Competition!" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Sing Meloetta: Search for the Rinka Berries", "notes": [ "Exists only in Japanese" ], "entry": "Piplup, Pansage, and a Meeting of the Times!" },
+    { "type": "short", "series": "Pikachu short", "title": "Meloetta's Moonlight Serenade", "entry": "Expedition to Onix Island!" },
+    { "type": "movie", "title": "Kyurem VS. The Sword of Justice", "entry": "Unova's Survival Crisis!" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Eevee & Friends", "entry": "Capacia Island UFO!" },
+    { "type": "special", "title": "Mewtwo — Prologue to Awakening", "entry": "Capacia Island UFO!" },
+    { "type": "movie", "title": "Genesect and the Legend Awakened", "entry": "Capacia Island UFO!" },
+    { "type": "special", "title": "Cilan and Brock! Gyarados's Outrage!!", "notes": [ "Exists only in Japanese" ], "entry": "The Dream Continues!" },
+
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokemon Origins", 
+        "start": { "season": 1, "episode": 1, "title": "Red" },
+        "end": { "season": 1, "episode": 4, "title": "Charizard" },
+        "entry": "The Dream Continues!"
+    },
+    
+    { "type": "movie", "title": "Pokémon the Movie: Diancie and the Cocoon of Destruction", "entry": "Forging Forest Friendships!" },
+    
+    { "type": "movie", "title": "Pokémon the Movie: Hoopa and the Clash of Ages", "entry": "Rotom's Wish!" },
+
+    { "type": "movie", "title": "Pokémon the Movie: Volcanion and the Mechanical Marvel", "entry": "A Real Icebreaker!" },
+
+    { "type": "short", "series": "Pikachu short", "title": "Pikachus Winter Vacation", "entry": "Unplaced" },
+    { "type": "short", "series": "Pikachu short", "title": "Pikachus Winter Vacation", "entry": "Unplaced" }
+]

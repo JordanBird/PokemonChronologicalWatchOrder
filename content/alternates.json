@@ -1,0 +1,39 @@
+[
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokémon Origins", 
+        "start": { "season": 1, "episode": 1, "title": "File 1: Red" },
+        "end": { "season": 1, "episode": 4, "title": "File 4: Charizard" }
+    },
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokémon Generations", 
+        "start": { "season": 1, "episode": 1, "title": "The Adventure" },
+        "end": { "season": 1, "episode": 3, "title": "The Redemption" },
+        "entry": "Stage Fight!"
+    },
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokémon: Twilight Wings", 
+        "start": { "season": 1, "episode": 1, "title": "Letter" },
+        "end": { "season": 1, "episode": 8, "title": "The Gathering of Stars" }
+    },
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokémon Evolutions", 
+        "start": { "season": 1, "episode": 1, "title": "The Champion" },
+        "end": { "season": 1, "episode": 8, "title": "The Discovery" }
+    },
+    {
+        "type": "spinoff-episodes",
+        "series": "Pokémon: Hisuian Snow", 
+        "start": { "season": 1, "episode": 1, "title": "Onto the Icy Blue" },
+        "end": { "season": 1, "episode": 3, "title": "Two Hues" }
+    },
+    {
+        "type": "spinoff-episodes",
+        "series": "POKÉTOON", 
+        "start": { "season": 1, "episode": 1, "title": "Scraggy and Mimikyu" },
+        "end": { "season": 1, "episode": 2, "title": "The Pancham Who Wants to Be a Hero" }
+    }
+]

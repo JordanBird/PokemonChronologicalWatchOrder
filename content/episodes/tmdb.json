@@ -1,0 +1,658 @@
+[
+    {
+        "id": "5381768f0e0a26588c004ae6",
+        "episode": "1",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 1 - Pokémon! I Choose You!",
+        "airdate": " 1 April 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538176c30e0a2657cd001e37",
+        "episode": "2",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 2 - Pokémon Emergency!",
+        "airdate": " 8 April 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538176dc0e0a2624b4009469",
+        "episode": "3",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 3 - Ash Catches a Pokémon",
+        "airdate": "15 April 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538176f30e0a2624b4009473",
+        "episode": "4",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 4 - Challenge of the Samurai",
+        "airdate": "22 April 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177110e0a2624bd009320",
+        "episode": "5",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 5 - Showdown in Pewter City",
+        "airdate": "29 April 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177250e0a2657cd001e4a",
+        "episode": "6",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 6 - Clefairy and The Moon Stone",
+        "airdate": " 6 May 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381773f0e0a2657cd001e57",
+        "episode": "7",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 7 - The Water Flowers of Cerulean City",
+        "airdate": "13 May 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177580e0a2624cb009027",
+        "episode": "8",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 8 - The Path to the Pokémon League",
+        "airdate": "20 May 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381778b0e0a26588c004b10",
+        "episode": "9",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 9 - The School of Hard Knocks",
+        "airdate": "27 May 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177a10e0a2624b4009496",
+        "episode": "10",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 10 - Bulbasaur and the Hidden Village",
+        "airdate": " 3 June 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177bd0e0a2624b7009492",
+        "episode": "11",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 11 - Charmander - The Stray Pokémon",
+        "airdate": "10 June 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177d00e0a2624c7009338",
+        "episode": "12",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 12 - Here Comes the Squirtle Squad",
+        "airdate": "17 June 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177e80e0a2657cd001e7b",
+        "episode": "13",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 13 - Mystery at the Lighthouse",
+        "airdate": "24 June 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538177fa0e0a26588c004b27",
+        "episode": "14",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 14 - Electric Shock Showdown",
+        "airdate": " 1 July 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381780e0e0a2624cb009051",
+        "episode": "15",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 15 - Battle Aboard the St. Anne",
+        "airdate": " 8 July 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381781d0e0a26588c004b33",
+        "episode": "16",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 16 - Pokémon Shipwreck",
+        "airdate": "15 July 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178310e0a2624c700934f",
+        "episode": "17",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 17 - Island of the Giant Pokémon",
+        "airdate": "22 July 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381785d0e0a2624cb009062",
+        "episode": "18",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 18 - Beauty and the Beach",
+        "airdate": "29 July 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381786f0e0a2624c700935d",
+        "episode": "19",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 19 - Tentacool & Tentacruel",
+        "airdate": " 5 August 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178850e0a2624b70094bf",
+        "episode": "20",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 20 - The Ghost of Maiden's Peak",
+        "airdate": "12 October 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178930e0a2624c0009524",
+        "episode": "21",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 21 - Bye, Bye Butterfree",
+        "airdate": "19 August 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178b30e0a2624c0009530",
+        "episode": "22",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 22 - Abra and the Psychic Showdown",
+        "airdate": "26 August 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178c10e0a26588c004b53",
+        "episode": "23",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 23 - The Tower of Terror",
+        "airdate": " 2 September 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178d10e0a2624b70094d1",
+        "episode": "24",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 24 - Haunter vs. Kadabra",
+        "airdate": " 9 September 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178e40e0a2624b70094db",
+        "episode": "25",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 25 - Primeape Goes Bananas",
+        "airdate": "16 September 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538178f90e0a2624c0009542",
+        "episode": "26",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 26 - Pokémon Scent-sation!",
+        "airdate": "23 September 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381790c0e0a2657cd001ea6",
+        "episode": "27",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 27 - Hypno's Naptime",
+        "airdate": "30 September 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179240e0a26588c004b61",
+        "episode": "28",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 28 - Pokémon Fashion Flash",
+        "airdate": " 7 October 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179330e0a2624b40094c1",
+        "episode": "29",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 29 - The Punchy Pokémon",
+        "airdate": "14 October 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179440e0a2657cd001eb8",
+        "episode": "30",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 30 - Sparks Fly for Magnemite",
+        "airdate": "21 October 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179540e0a26588c004b70",
+        "episode": "31",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 31 - Dig Those Diglett!",
+        "airdate": "28 October 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179650e0a2624c700937b",
+        "episode": "32",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 32 - The Ninja-Poké Showdown",
+        "airdate": " 4 November 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179750e0a26588c004b7c",
+        "episode": "33",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 33 - The Flame Pokémon-athon!",
+        "airdate": "11 November 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "5381798d0e0a2624c000956b",
+        "episode": "34",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 34 - The Kangaskhan Kid",
+        "airdate": "18 November 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179a60e0a2657cd001ecd",
+        "episode": "35",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 35 - The Legend of Dratini",
+        "airdate": "25 November 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179ce0e0a2624b7009501",
+        "episode": "36",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 36 - The Bridge Bike Gang",
+        "airdate": " 2 December 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179e70e0a2624b700950c",
+        "episode": "37",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 37 - Ditto's Mysterious Mansion",
+        "airdate": " 9 December 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "538179fd0e0a2624c70093a3",
+        "episode": "38",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 38 - Cyber Soldier Porygon",
+        "airdate": "16 December 1997",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a0f0e0a2624bd0093a1",
+        "episode": "39",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 39 - Pikachu's Goodbye",
+        "airdate": "16 April 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a210e0a2624cb0090a6",
+        "episode": "40",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 40 - The Battling Eevee Brothers",
+        "airdate": "16 April 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a300e0a2624c70093b0",
+        "episode": "41",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 41 - Wake Up, Snorlax!",
+        "airdate": "23 April 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a3f0e0a2624bd0093b2",
+        "episode": "42",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 42 - Showdown at Dark City",
+        "airdate": "30 April 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a5d0e0a2624b40094ea",
+        "episode": "43",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 43 - The March of the Exeggutor Squad",
+        "airdate": " 7 May 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a700e0a26588c004ba0",
+        "episode": "44",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 44 - The Problem with Paras",
+        "airdate": "14 May 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a800e0a2624b7009526",
+        "episode": "45",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 45 - The Song of Jigglypuff",
+        "airdate": "21 May 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817a910e0a2624c0009593",
+        "episode": "46",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 46 - Attack of the Prehistoric Pokémon",
+        "airdate": "28 May 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817aa40e0a2624b7009533",
+        "episode": "47",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 47 - A Chansey Operation",
+        "airdate": " 4 June 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817ab60e0a2624b4009508",
+        "episode": "48",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 48 - Holy Matrimony!",
+        "airdate": "11 June 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817ac40e0a2624cb0090c6",
+        "episode": "49",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 49 - So Near, Yet So Farfetch'd",
+        "airdate": "18 June 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817ad50e0a2624c00095aa",
+        "episode": "50",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 50 - Who Gets to Keep Togepi?",
+        "airdate": "25 June 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817ae50e0a26588c004bb8",
+        "episode": "51",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 51 - Bulbasaur's Mysterious Garden",
+        "airdate": " 2 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817af30e0a2624c70093d9",
+        "episode": "52",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 52 - Princess vs. Princess",
+        "airdate": " 9 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b030e0a26588c004bc6",
+        "episode": "53",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 53 - The Purr-fect Hero",
+        "airdate": " 9 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b200e0a2657cd001f04",
+        "episode": "54",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 54 - The Case of the K-9 Caper!",
+        "airdate": "16 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b340e0a2624b4009525",
+        "episode": "55",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 55 - Pokémon Paparazzi",
+        "airdate": "23 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b470e0a2624b4009530",
+        "episode": "56",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 56 - The Ultimate Test",
+        "airdate": "30 July 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b530e0a2624c00095c0",
+        "episode": "57",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 57 - The Breeding Center Secret",
+        "airdate": " 6 August 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b650e0a2624cb0090e6",
+        "episode": "58",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 58 - Riddle Me This",
+        "airdate": "13 August 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b780e0a2657cd001f1c",
+        "episode": "59",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 59 - Volcanic Panic",
+        "airdate": "20 August 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b8b0e0a2624c00095ce",
+        "episode": "60",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 60 - Beach Blank-Out Blastoise",
+        "airdate": "27 August 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817b9d0e0a2624c70093f1",
+        "episode": "61",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 61 - The Misty Mermaid",
+        "airdate": " 3 September 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817bae0e0a2624bd0093f2",
+        "episode": "62",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 62 - Clefairy Tales",
+        "airdate": "10 September 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817bd10e0a2624c7009400",
+        "episode": "63",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 63 - The Battle of the Badge",
+        "airdate": "17 September 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817bec0e0a26588c004be8",
+        "episode": "64",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 64 - It's Mr. Mime Time!",
+        "airdate": "24 September 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817bfc0e0a2624cb009102",
+        "episode": "65",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 65 - Holiday Hi-Jynx",
+        "airdate": " 5 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c0e0e0a2624cb00910d",
+        "episode": "66",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 66 - Snow Way Out",
+        "airdate": " 5 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c1d0e0a2624c7009413",
+        "episode": "67",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 67 - Showdown at the Po-ké Corral",
+        "airdate": " 8 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c2e0e0a2624cb00911c",
+        "episode": "68",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 68 - The Evolution Solution",
+        "airdate": "15 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c3a0e0a2624cb009128",
+        "episode": "69",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 69 - The Pi-Kahuna",
+        "airdate": "22 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c4d0e0a2624cb009133",
+        "episode": "70",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 70 - Make Room for Gloom",
+        "airdate": "29 October 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c5e0e0a2624cb00913d",
+        "episode": "71",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 71 - Lights, Camera, Quack-tion!",
+        "airdate": " 5 November 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c6f0e0a2624c7009427",
+        "episode": "72",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 72 - Go West, Young Meowth",
+        "airdate": "12 November 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c820e0a2624c7009434",
+        "episode": "73",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 73 - To Master the Onixpected!",
+        "airdate": "19 November 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817c990e0a2624b4009565",
+        "episode": "74",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 74 - The Ancient Puzzle of Pokémopolis",
+        "airdate": "26 November 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817ca90e0a2624cb00914e",
+        "episode": "75",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 75 - Bad to the Bone!",
+        "airdate": " 3 December 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817cba0e0a2624bd009420",
+        "episode": "76",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 76 - All Fired Up!",
+        "airdate": "10 December 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817cca0e0a2624bd00942b",
+        "episode": "77",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 77 - Round One: Begin!",
+        "airdate": "17 December 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817cdd0e0a2624cb00915b",
+        "episode": "78",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 78 - Fire and Ice",
+        "airdate": "24 December 1998",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817cf20e0a2657cd001f50",
+        "episode": "79",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 79 - The Fourth Round Rumble",
+        "airdate": " 1 January 1999",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817cff0e0a2624bd00943b",
+        "episode": "80",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 80 - A Friend in Deed",
+        "airdate": " 7 January 1999",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817d100e0a2624b4009579",
+        "episode": "81",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 81 - Friend and Foe Alike",
+        "airdate": "14 January 1999",
+        "runtime": "23m"
+    },
+    {
+        "id": "53817d1e0e0a2624b7009584",
+        "episode": "82",
+        "season": "1",
+        "title": "Pokémon: Season 1 (1997): Episode 82 - Friends to the End",
+        "airdate": "21 January 1999",
+        "runtime": "23m"
+    }
+]

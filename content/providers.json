@@ -1,0 +1,14 @@
+[
+    {
+        "name": "TMDB",
+        "url": "content/episodes/tmdb.json"
+    },
+    {
+        "name": "TVDB (DVD Order)",
+        "url": "content/episodes/tvdb-dvd-order.json"
+    },
+    {
+        "name": "TVDB (Aired Order)",
+        "url": "content/episodes/tvdb-aired-order.json"
+    }
+]

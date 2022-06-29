@@ -1,7 +1,12 @@
+var providers = [];
+var selectedProvider = 0;
+
+var isExpanded = false;
+
 function renderTimeline(episodes, entries, alternates) {
     var mediaQuery = getMedia(episodes, entries, alternates);
 
-    if (true) {
+    if (!isExpanded) {
         mediaQuery = flattenMedia(mediaQuery);
     }
 
@@ -56,10 +61,14 @@ function getTitleForMedia(media) {
             var sEpisode = getNumberAsEpisode(media.episode);
 
             return media.series + " " + sSeason + sEpisode + " - " + media.title;
+        case "episode":
+            var sSeason = getNumberAsSeason(media.season);
+            var sEpisode = getNumberAsEpisode(media.episode);
+
+            return "Pokemon " + sSeason + sEpisode + " - " + media.title;
         case "episodes":
         case "special":
         case "movie":
-        case "episode":
         case "short":
             return media.title;
     }
@@ -108,15 +117,34 @@ function addTimelineContainer(content, type) {
 }
 
 function initEvents() {
-    $(window).scroll(posiitonNav);
-    $(window).resize(posiitonNav);
+    $(window).scroll(positonNav);
+    $(window).resize(positonNav);
 
-    posiitonNav();
+    $('.viewing-mode-compact').off('click');
+    $('.viewing-mode-compact').on('click', function () {
+        $('.viewing-mode-text').html('Compact');
+
+        isExpanded = false;
+
+        run();
+    });
+
+    $('.viewing-mode-expanded').off('click');
+    $('.viewing-mode-expanded').on('click', function () {
+        $('.viewing-mode-text').html('Expanded');
+
+        isExpanded = true;
+
+        run();
+    });
+    
+    positonNav();
 }
 
-function posiitonNav() {
+function positonNav() {
     $('.floating-navigation-container').css('top', ($(window).height() / 2) - ($('.floating-navigation-container').height() / 2));
     $('.floating-navigation-container').css('left', $('.floating-navigation-container').parent().position().left + ($('.floating-navigation-container').parent().width() / 2) - ($('.floating-navigation-container').width() / 2));
+    $('.floating-navigation-container').css('width', $('.floating-navigation-container').parent().width());
 
     var lastActive;
     var results = $('.floating-navigation li');
@@ -160,7 +188,8 @@ function getMedia(episodes, entries, alternates) {
             });
 
             for (var entry = entryPlacement; entry < entries.length; entry++) {
-                if (episodesBySeason[episodeBySeason][episode].title.toLowerCase().includes(entries[entry].entry.toLowerCase()) == false) {
+                //We use a Regex replace on non alphanumeric as that's the most likely naming error when matching.
+                if (episodesBySeason[episodeBySeason][episode].title.replace(/\W/g, '').toLowerCase().includes(entries[entry].entry.replace(/\W/g, '').toLowerCase()) == false) {
                     break;
                 }
 
@@ -260,6 +289,26 @@ function flattenMedia(media) {
     return media;
 }
 
+function initProviders(data) {
+    providers = data;
+
+    for (var p = 0; p < providers.length; p++) {
+        let index = p;
+
+        $('.provider-container').append($('<a></a>').addClass('dropdown-item').attr('href', '#').html(providers[p].name).click(function() {
+            selectedProvider = index;
+
+            run();
+        }));
+    }
+}
+
+function clearContainers() {
+    $('.main-timeline').html('');
+    $('.floating-navigation').html('');
+    $('.jump-to-container').html('');
+}
+
 function formatNumber(number) {
     var output = number.toString();
     if (output.length == 1) {
@@ -292,18 +341,28 @@ function groupBy(xs, key) {
 }
 
 function run() {
-    $.getJSON("content/episodes/tvdb-dvd-order.json", function (episodes) {
-        $.getJSON("content/entries.json", function (entries) {
-            $.getJSON("content/alternates.json", function (alternates) {
-                renderTimeline(episodes, entries, alternates);
-            });
-        });
+    clearContainers();
+
+    $('.provider-text').text(providers[selectedProvider].name);
+
+    $.when(
+        $.getJSON(providers[selectedProvider].url),
+        $.getJSON("content/entries.json"),
+        $.getJSON("content/alternates.json"),
+    ).done(function(episodes, entries, alternates) {
+        renderTimeline(episodes[0], entries[0], alternates[0]);
+
+        initEvents();
+
+        positonNav();
     });
 }
 
 $(document).ready(function () {
-    run();
-    initEvents();
+    $.getJSON("content/providers.json")
+    .done(function(data) {
+        initProviders(data);
 
-    posiitonNav();
+        run();
+      })
 });

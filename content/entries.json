@@ -107,11 +107,27 @@
         "entry": "The Dream Continues!"
     },
     
+    { "type": "special", "title": "Mega Evolution Special (Act 1)", "entry": "A PokéVision of Things to Come!" },
+
     { "type": "movie", "title": "Pokémon the Movie: Diancie and the Cocoon of Destruction", "entry": "Forging Forest Friendships!" },
+    
+    { "type": "special", "title": "Mega Evolution Special (Act 2)", "entry": "Bonnie for the Defense!" },
+    { "type": "special", "title": "Mega Evolution Special (Act 3)", "entry": "Battling with Elegance And a Big Smile!" },
     
     { "type": "movie", "title": "Pokémon the Movie: Hoopa and the Clash of Ages", "entry": "Rotom's Wish!" },
 
+    { "type": "special", "title": "Mega Evolution Special (Act 4)", "entry": "All Eyes on the Future!" },
+
     { "type": "movie", "title": "Pokémon the Movie: Volcanion and the Mechanical Marvel", "entry": "A Real Icebreaker!" },
+
+    { "type": "special", "title": "The Legend of X, Y, and Z!", "notes": [ "Some providers include this episode in the season" ], "entry": "Till We Compete Again!" },
+    { "type": "special", "title": "The Strongest Duo! Clemont and Cilan!", "notes": [ "Exists only in Japanese", "Some providers include this episode in the season" ], "entry": "Till We Compete Again!" },
+
+    { "type": "movie", "title": "Pokémon the Movie: I Choose You!", "notes": [ "This film establishes a new canon, so can be watched at any point" ], "entry": "Big Sky, Small Fry!" },
+    { "type": "movie", "title": "Pokémon the Movie: The Power of Us", "notes": [ "This film follows the canon established in 'Pokémon the Movie: I Choose You!'" ], "entry": "Dummy, You Shrunk the Kids!" },
+    { "type": "movie", "title": "Detective Pikachu", "notes": [ "This film is non canon so can be watched at any point" ], "entry": "A High-Speed Awakening!" },
+    { "type": "movie", "title": "Pokémon: Mewtwo Strikes Back - Evolution", "notes": [ "This film is non canon so can be watched at any point" ], "entry": "Battle Royale 151!" },
+    { "type": "movie", "title": "Pokémon the Movie: Secrets of the Jungle", "notes": [ "This film follows the canon established in 'Pokémon the Movie: I Choose You!' and 'Pokémon the Movie: The Power of Us'" ], "entry": "A Close Call... Practically!" },
 
     { "type": "short", "series": "Pikachu short", "title": "Pikachus Winter Vacation", "entry": "Unplaced" },
     { "type": "short", "series": "Pikachu short", "title": "Pikachus Winter Vacation", "entry": "Unplaced" }

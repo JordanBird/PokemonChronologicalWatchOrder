@@ -24,6 +24,11 @@
         "start": { "season": 1, "episode": 1, "title": "The Champion" },
         "end": { "season": 1, "episode": 8, "title": "The Discovery" }
     },
+    { "type": "movie", "title": "Pokémon the Movie: I Choose You!" },
+    { "type": "movie", "title": "Pokémon the Movie: The Power of Us" },
+    { "type": "movie", "title": "Detective Pikachu" },
+    { "type": "movie", "title": "Pokémon: Mewtwo Strikes Back - Evolution" },
+    { "type": "movie", "title": "Pokémon the Movie: Secrets of the Jungle" },
     {
         "type": "spinoff-episodes",
         "series": "Pokémon: Hisuian Snow", 

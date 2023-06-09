@@ -1,11 +1,12 @@
-var episodes = $('.list-group-item');
+var episodes = $('tr');
 var output = [];
 
 var sRx = /S0*(\d+)E/;
 var eRx = /E0*(\d+)/;
+var airDateReplaceRegex = /\D/g;
 
-for (var i = 0; i < episodes.length; i++) {
-    var episodeLabel = $(episodes[i]).find('.episode-label').html();
+for (var i = 1; i < episodes.length; i++) {
+    var episodeLabel = $(episodes[i]).find('td')[0].innerHTML;
     if (episodeLabel.includes("SPECIAL 0")) {
         continue;
     }
@@ -14,9 +15,9 @@ for (var i = 0; i < episodes.length; i++) {
         id: $(episodes[i]).find('a').attr('href').split('/')[4],
         episode: eRx.exec(episodeLabel)[1],
         season: sRx.exec(episodeLabel)[1],
-        title: $(episodes[i]).find('a').html().trim(),
-        airdate: $(episodes[i]).find('li').html(),
-        runtime: 0
+        title: $(episodes[i]).find('td a').html().trim(),
+        airdate: $(episodes[i]).find('td div')[0].innerHTML,
+        runtime:  $(episodes[i]).find('td')[3].innerHTML.replace(airDateReplaceRegex,'')
     });
 }
 
